@@ -1,0 +1,52 @@
+/* reset css */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+  background-color: #cecfc9;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+#root,
+#__next {
+  isolation: isolate;
+}
+/* custom properties */
+:root {
+  --color-white: hsl(0, 0%, 100%);
+  --color-gray-light: hsl(212, 45%, 89%);
+  --color-blue-gray: hsl(220, 15%, 55%);
+  --color-blue-dark: hsl(218, 44%, 22%);
+}
